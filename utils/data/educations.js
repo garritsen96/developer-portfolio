@@ -2,19 +2,14 @@ export const educations = [
   {
     id: 1,
     title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    duration: "2022 - 2026",
+    institution: "Istanbul Biruni University",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Erasmus+ Programme",
+    duration: "2025-2026",
+    institution: "Universidad Europea De Madrid",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
+
 ]

@@ -73,6 +73,7 @@ import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
+import nodejs from '../app/assets/svg/skills/nodejs.png';
 
 import pandas from '../app/assets/svg/skills/pandas.svg';
 import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
@@ -254,6 +255,10 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'node js':
+    case 'nodejs':
+    case 'node.js':
+      return nodejs;
     default:
       break;
   }
